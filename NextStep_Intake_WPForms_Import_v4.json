@@ -1,0 +1,2171 @@
+[
+  {
+    "fields": {
+      "1": {
+        "id": "1",
+        "type": "pagebreak",
+        "position": "top",
+        "indicator": "progress",
+        "indicator_color": "#7CB342",
+        "progress_text": "Step {current_page} of {last_page}",
+        "title": "",
+        "nav_align": "left",
+        "css": ""
+      },
+      "2": {
+        "id": "2",
+        "type": "html",
+        "name": "",
+        "code": "<div style=\"padding:20px;background:#F3F4F6;border-left:4px solid #7CB342;border-radius:4px;\"><h2 style=\"margin-top:0;color:#1F2937;\">Website Rebuild Intake</h2><p>Paul - this is the intake we need to build the new NextStepBath.com to the Growth Package standard and start earning rankings in Columbus, Grove City, Pataskala, Galloway, and Plain City.</p><p>The more specific and honest your answers, the better the site will perform. Generic answers produce generic pages, and Google ignores those.</p><p><strong>Time required:</strong> About 30-45 minutes if you have your license, insurance, and review numbers handy. If a question doesn't apply, write &quot;N/A&quot; or pick the closest option - don't skip it.</p></div>",
+        "label_disable": "1",
+        "css": ""
+      },
+      "3": {
+        "id": "3",
+        "type": "pagebreak",
+        "position": "",
+        "title": "About You",
+        "next": "Next",
+        "prev": "Back",
+        "css": ""
+      },
+      "4": {
+        "id": "4",
+        "type": "text",
+        "label": "Full legal name (and any nickname you go by professionally)",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "5": {
+        "id": "5",
+        "type": "text",
+        "label": "Year you started in the trades",
+        "description": "Any trade, not just this business.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "6": {
+        "id": "6",
+        "type": "text",
+        "label": "Year you founded NextStep Bath Solutions",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "7": {
+        "id": "7",
+        "type": "textarea",
+        "label": "Your story - in your own words, why did you start NextStep Bath Solutions?",
+        "description": "Was there a personal moment? A family member? A gap in the market you saw? This is the single most important answer in the whole form. AI engines and real homeowners both reward authenticity here.",
+        "size": "large",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "8": {
+        "id": "8",
+        "type": "textarea",
+        "label": "What's different about how you do this work compared to the big national franchises (Bath Fitter, Re-Bath, etc.)?",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "9": {
+        "id": "9",
+        "type": "url",
+        "label": "LinkedIn profile URL",
+        "description": "The one Mike found you on. We'll pull what we can from it.",
+        "size": "medium",
+        "placeholder": "",
+        "default_value": "",
+        "css": ""
+      },
+      "10": {
+        "id": "10",
+        "type": "radio",
+        "label": "Do you have a longer bio written anywhere we can use as a starting point?",
+        "choices": {
+          "1": {
+            "label": "Yes - on my LinkedIn About section (and it's more than the headline)",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "Yes - somewhere else (please tell us where below)",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "3": {
+            "label": "No - but I can write 200-400 words about my background if you give me a prompt",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "4": {
+            "label": "No - and I'd rather you interview me by phone and write it for me",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "other_size": "medium",
+        "other_placeholder": "",
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "",
+        "input_columns": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "11": {
+        "id": "11",
+        "type": "text",
+        "label": "If somewhere else - paste the URL or describe where to find it",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": "",
+        "conditional_logic": "1",
+        "conditional_type": "show",
+        "conditionals": [
+          [
+            {
+              "field": "10",
+              "operator": "i",
+              "value": "Yes - somewhere else (please tell us where below)"
+            }
+          ]
+        ]
+      },
+      "12": {
+        "id": "12",
+        "type": "text",
+        "label": "Personal website, blog, podcast appearance, or news article you've been featured in?",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "13": {
+        "id": "13",
+        "type": "radio",
+        "label": "Headshot photo - do you have a professional or semi-professional one we can use?",
+        "choices": {
+          "1": {
+            "label": "Yes - I'll send a high-resolution file",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "No - but I can take one this week (phone photo against a plain wall is fine)",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "3": {
+            "label": "I'd rather you send a photographer or just use stock",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "other_size": "medium",
+        "other_placeholder": "",
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "",
+        "input_columns": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "14": {
+        "id": "14",
+        "type": "pagebreak",
+        "position": "",
+        "title": "Credentials and Trust",
+        "next": "Next",
+        "prev": "Back",
+        "css": ""
+      },
+      "15": {
+        "id": "15",
+        "type": "radio",
+        "label": "Are you a Certified Aging-in-Place Specialist (CAPS)?",
+        "choices": {
+          "1": {
+            "label": "Yes",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "No",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "other_size": "medium",
+        "other_placeholder": "",
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "The CAPS designation is from the National Association of Home Builders.",
+        "input_columns": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "16": {
+        "id": "16",
+        "type": "text",
+        "label": "Year certified and certificate number (if you have it)",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": "",
+        "conditional_logic": "1",
+        "conditional_type": "show",
+        "conditionals": [
+          [
+            {
+              "field": "15",
+              "operator": "i",
+              "value": "Yes"
+            }
+          ]
+        ]
+      },
+      "17": {
+        "id": "17",
+        "type": "textarea",
+        "label": "List any other certifications, manufacturer authorizations, or professional memberships you hold",
+        "description": "Examples: NAHB, NARI, NKBA, BBB Accredited Business, CleanCut Authorized Installer, Bestbath Dealer, Safe Step Authorized, Independent Living Specialist. Include year of each.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "18": {
+        "id": "18",
+        "type": "text",
+        "label": "Ohio contractor license number (and license type)",
+        "description": "If Ohio doesn't require a state-level license for your specific work, list any city/county registrations.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "19": {
+        "id": "19",
+        "type": "text",
+        "label": "General liability insurance carrier and policy limit",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "20": {
+        "id": "20",
+        "type": "text",
+        "label": "Workers' comp policy or exempt status",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "21": {
+        "id": "21",
+        "type": "text",
+        "label": "Bonded? If yes, amount and surety company",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "22": {
+        "id": "22",
+        "type": "radio",
+        "label": "BBB (Better Business Bureau) status",
+        "choices": {
+          "1": {
+            "label": "Accredited - A+ rating",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "Accredited - other rating",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "3": {
+            "label": "Listed but not accredited",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "4": {
+            "label": "Not listed yet",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "other_size": "medium",
+        "other_placeholder": "",
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "",
+        "input_columns": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "23": {
+        "id": "23",
+        "type": "checkbox",
+        "label": "Discount programs you offer (or want to offer) - check all that apply",
+        "choices": {
+          "1": {
+            "label": "Military veteran discount",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "Active-duty military discount",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "3": {
+            "label": "First responder discount (police, fire, EMS, dispatch)",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "4": {
+            "label": "Senior discount (65+)",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "5": {
+            "label": "AARP member discount",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "6": {
+            "label": "Disability / SSI / SSDI discount",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "7": {
+            "label": "Multi-service / bundled-job discount",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "8": {
+            "label": "Referral discount (existing customer refers a new one)",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "9": {
+            "label": "None currently - but I'd consider adding one",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "10": {
+            "label": "None - and I don't want to offer discounts",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "Each one we list on the site is a trust signal AND a search-volume capture: people search for things like 'walk-in tub veterans discount Columbus' as distinct queries.",
+        "input_columns": "",
+        "choice_limit": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "24": {
+        "id": "24",
+        "type": "textarea",
+        "label": "For each one you checked, what's the discount amount or percentage?",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": "",
+        "conditional_logic": "1",
+        "conditional_type": "show",
+        "conditionals": [
+          [
+            {
+              "field": "23",
+              "operator": "c",
+              "value": "Military veteran discount"
+            }
+          ],
+          [
+            {
+              "field": "23",
+              "operator": "c",
+              "value": "Active-duty military discount"
+            }
+          ],
+          [
+            {
+              "field": "23",
+              "operator": "c",
+              "value": "First responder discount (police, fire, EMS, dispatch)"
+            }
+          ],
+          [
+            {
+              "field": "23",
+              "operator": "c",
+              "value": "Senior discount (65+)"
+            }
+          ],
+          [
+            {
+              "field": "23",
+              "operator": "c",
+              "value": "AARP member discount"
+            }
+          ],
+          [
+            {
+              "field": "23",
+              "operator": "c",
+              "value": "Disability / SSI / SSDI discount"
+            }
+          ],
+          [
+            {
+              "field": "23",
+              "operator": "c",
+              "value": "Multi-service / bundled-job discount"
+            }
+          ],
+          [
+            {
+              "field": "23",
+              "operator": "c",
+              "value": "Referral discount (existing customer refers a new one)"
+            }
+          ]
+        ]
+      },
+      "25": {
+        "id": "25",
+        "type": "radio",
+        "label": "Are you yourself a veteran?",
+        "choices": {
+          "1": {
+            "label": "Yes",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "No",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "other_size": "medium",
+        "other_placeholder": "",
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "If yes we can add a veteran-owned business badge - a real ranking factor for veterans searching for accessibility contractors.",
+        "input_columns": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "26": {
+        "id": "26",
+        "type": "text",
+        "label": "Branch and years of service (only as much as you want to share publicly)",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": "",
+        "conditional_logic": "1",
+        "conditional_type": "show",
+        "conditionals": [
+          [
+            {
+              "field": "25",
+              "operator": "i",
+              "value": "Yes"
+            }
+          ]
+        ]
+      },
+      "27": {
+        "id": "27",
+        "type": "pagebreak",
+        "position": "",
+        "title": "Operations and Online Presence",
+        "next": "Next",
+        "prev": "Back",
+        "css": ""
+      },
+      "28": {
+        "id": "28",
+        "type": "radio",
+        "label": "Business address situation",
+        "choices": {
+          "1": {
+            "label": "I have a public commercial address customers can visit",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "I have a home office I'd rather not list publicly",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "3": {
+            "label": "Service-area-only - I'd like the GBP set up without a street address",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "other_size": "medium",
+        "other_placeholder": "",
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "",
+        "input_columns": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "29": {
+        "id": "29",
+        "type": "textarea",
+        "label": "Full street address, suite, city, state, ZIP",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": "",
+        "conditional_logic": "1",
+        "conditional_type": "show",
+        "conditionals": [
+          [
+            {
+              "field": "28",
+              "operator": "i",
+              "value": "I have a public commercial address customers can visit"
+            }
+          ]
+        ]
+      },
+      "30": {
+        "id": "30",
+        "type": "phone",
+        "label": "Primary business phone (will be displayed on every page)",
+        "format": "smart",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "default_value": "",
+        "css": ""
+      },
+      "31": {
+        "id": "31",
+        "type": "email",
+        "label": "Primary business email",
+        "description": "This is the email used for confirmation copies - make sure it's correct.",
+        "size": "medium",
+        "placeholder": "",
+        "default_value": "",
+        "css": ""
+      },
+      "32": {
+        "id": "32",
+        "type": "text",
+        "label": "Business hours",
+        "description": "Default is Mon-Fri 8AM-5PM - change if different.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "33": {
+        "id": "33",
+        "type": "textarea",
+        "label": "Google Business Profile - Mike already has access and is updating it. Anything specific you want to make sure ends up there, or anything currently there you want changed/removed?",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "34": {
+        "id": "34",
+        "type": "text",
+        "label": "Roughly how many Google reviews do you have right now?",
+        "description": "A rough number is fine.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "35": {
+        "id": "35",
+        "type": "textarea",
+        "label": "Are you on any of these other review platforms? Mark which and how many reviews on each.",
+        "description": "Angi, BBB, Houzz, HomeAdvisor, Yelp, Facebook, GuildQuality, Nextdoor, AARP, Eldercare Locator, etc.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "36": {
+        "id": "36",
+        "type": "radio",
+        "label": "Do you use any field service / booking software?",
+        "choices": {
+          "1": {
+            "label": "Jobber",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "Housecall Pro",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "3": {
+            "label": "ServiceTitan",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "4": {
+            "label": "Square Appointments / Calendly / similar",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "5": {
+            "label": "Nothing - phone, email, and a notebook",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "6": {
+            "label": "Other",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "other_size": "medium",
+        "other_placeholder": "",
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "The Growth Package includes booking-widget integration if you use one.",
+        "input_columns": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "37": {
+        "id": "37",
+        "type": "text",
+        "label": "Other booking software",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": "",
+        "conditional_logic": "1",
+        "conditional_type": "show",
+        "conditionals": [
+          [
+            {
+              "field": "36",
+              "operator": "i",
+              "value": "Other"
+            }
+          ]
+        ]
+      },
+      "38": {
+        "id": "38",
+        "type": "html",
+        "name": "",
+        "code": "<div style=\"padding:14px;background:#F0FDF4;border-left:3px solid #7CB342;margin:10px 0;\"><strong>Facebook Page Management</strong> - Mike is including Facebook page setup and ongoing posting at no additional charge as part of your package. The next four questions get us what we need to do that.</div>",
+        "label_disable": "1",
+        "css": ""
+      },
+      "39": {
+        "id": "39",
+        "type": "url",
+        "label": "Facebook Business Page URL",
+        "description": "Paste the URL or write 'don't have one' if there isn't a page yet.",
+        "size": "medium",
+        "placeholder": "",
+        "default_value": "",
+        "css": ""
+      },
+      "40": {
+        "id": "40",
+        "type": "radio",
+        "label": "Facebook page admin access",
+        "choices": {
+          "1": {
+            "label": "I'll add Mike (mike@korekomfortsolutions.com) as a Page admin via Meta Business Suite",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "I'll send Mike my login credentials (less preferred - we'd rather use proper admin access)",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "3": {
+            "label": "I don't know how to grant access - I'll need help walking through it",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "4": {
+            "label": "There's no page yet - Mike should create one from scratch",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "other_size": "medium",
+        "other_placeholder": "",
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "",
+        "input_columns": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "41": {
+        "id": "41",
+        "type": "radio",
+        "label": "How active do you want NextStep's Facebook to be?",
+        "choices": {
+          "1": {
+            "label": "Frequent - 3+ posts per week, project photos, tips, community engagement",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "Steady - 1-2 posts per week, mostly project photos and customer wins",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "3": {
+            "label": "Light - 2-4 posts per month, just enough to look alive",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "4": {
+            "label": "I trust your judgment - pick a cadence that fits the goal",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "other_size": "medium",
+        "other_placeholder": "",
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "",
+        "input_columns": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "42": {
+        "id": "42",
+        "type": "textarea",
+        "label": "Anything off-limits on Facebook?",
+        "description": "Topics, opinions, photos, or content styles you do NOT want associated with NextStep Bath Solutions. Politics, religion, specific competitors, certain product brands, anything personal - call it out now so we don't post something you'd want pulled later.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "43": {
+        "id": "43",
+        "type": "pagebreak",
+        "position": "",
+        "title": "What You Sell",
+        "next": "Next",
+        "prev": "Back",
+        "css": ""
+      },
+      "44": {
+        "id": "44",
+        "type": "checkbox",
+        "label": "Services you currently offer (check all that apply)",
+        "choices": {
+          "1": {
+            "label": "Grab bar installation (single-point or full-room)",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "Tub-to-shower conversions",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "3": {
+            "label": "Step-in tub conversions (CleanCut or similar inserts)",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "4": {
+            "label": "Full walk-in tub installations (replacement tubs, not inserts)",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "5": {
+            "label": "Curbless / barrier-free shower installations",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "6": {
+            "label": "Comfort-height (ADA) toilet installation",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "7": {
+            "label": "Bidet seat or full bidet installation",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "8": {
+            "label": "Bathroom flooring (slip-resistant)",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "9": {
+            "label": "Stair lifts / chair lifts",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "10": {
+            "label": "Ramps (interior or exterior)",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "11": {
+            "label": "Doorway widening for wheelchair access",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "12": {
+            "label": "Bathroom lighting upgrades for low-vision homeowners",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "13": {
+            "label": "Full bathroom remodels (beyond accessibility)",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "14": {
+            "label": "Kitchen accessibility modifications",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "15": {
+            "label": "Whole-home aging-in-place assessments",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "16": {
+            "label": "Other",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "The current site shows three. We need to know if that's the full menu or if we're leaving money on the table.",
+        "input_columns": "",
+        "choice_limit": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "45": {
+        "id": "45",
+        "type": "text",
+        "label": "Other services not listed above",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": "",
+        "conditional_logic": "1",
+        "conditional_type": "show",
+        "conditionals": [
+          [
+            {
+              "field": "44",
+              "operator": "c",
+              "value": "Other"
+            }
+          ]
+        ]
+      },
+      "46": {
+        "id": "46",
+        "type": "text",
+        "label": "Which service brings you the most revenue per job?",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "47": {
+        "id": "47",
+        "type": "text",
+        "label": "Which service has the best lead-to-close ratio?",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "48": {
+        "id": "48",
+        "type": "text",
+        "label": "Which service do you most want to grow over the next 12 months?",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "49": {
+        "id": "49",
+        "type": "radio",
+        "label": "Do you offer free in-home consultations?",
+        "choices": {
+          "1": {
+            "label": "Yes",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "No",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "other_size": "medium",
+        "other_placeholder": "",
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "",
+        "input_columns": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "50": {
+        "id": "50",
+        "type": "textarea",
+        "label": "Any conditions or restrictions on free consultations?",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": "",
+        "conditional_logic": "1",
+        "conditional_type": "show",
+        "conditionals": [
+          [
+            {
+              "field": "49",
+              "operator": "i",
+              "value": "Yes"
+            }
+          ]
+        ]
+      },
+      "51": {
+        "id": "51",
+        "type": "radio",
+        "label": "Financing options you offer",
+        "choices": {
+          "1": {
+            "label": "In-house financing or payment plan",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "Third-party financing partner - name them below",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "3": {
+            "label": "Credit card only",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "4": {
+            "label": "Cash/check only - no financing",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "other_size": "medium",
+        "other_placeholder": "",
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "",
+        "input_columns": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "52": {
+        "id": "52",
+        "type": "text",
+        "label": "Financing partner names",
+        "description": "Synchrony, GreenSky, Hearth, etc.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": "",
+        "conditional_logic": "1",
+        "conditional_type": "show",
+        "conditionals": [
+          [
+            {
+              "field": "51",
+              "operator": "i",
+              "value": "In-house financing or payment plan"
+            }
+          ],
+          [
+            {
+              "field": "51",
+              "operator": "i",
+              "value": "Third-party financing partner - name them below"
+            }
+          ]
+        ]
+      },
+      "53": {
+        "id": "53",
+        "type": "textarea",
+        "label": "Typical price ranges you're comfortable publishing on the site",
+        "description": "Most homeowners want a range. Examples: 'Tub-to-shower conversion: $X,XXX to $X,XXX', 'Grab bar installation: $XXX per bar, $XXX for full bathroom'. If you'd rather not publish prices, write 'NO PRICES'.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "54": {
+        "id": "54",
+        "type": "textarea",
+        "label": "Warranty terms - labor warranty and product warranty separately",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "55": {
+        "id": "55",
+        "type": "pagebreak",
+        "position": "",
+        "title": "Target Cities",
+        "next": "Next",
+        "prev": "Back",
+        "css": ""
+      },
+      "56": {
+        "id": "56",
+        "type": "html",
+        "name": "",
+        "code": "<h3 style=\"color:#7CB342;border-bottom:2px solid #7CB342;padding-bottom:6px;margin-top:20px;\">Columbus</h3>",
+        "label_disable": "1",
+        "css": ""
+      },
+      "57": {
+        "id": "57",
+        "type": "radio",
+        "label": "Have you completed work in Columbus in the last 24 months?",
+        "choices": {
+          "1": {
+            "label": "Yes - many jobs",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "Yes - a few jobs",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "3": {
+            "label": "No, but I'd take work there",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "4": {
+            "label": "No - and not currently set up to",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "other_size": "medium",
+        "other_placeholder": "",
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "",
+        "input_columns": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "58": {
+        "id": "58",
+        "type": "text",
+        "label": "Roughly how many jobs in Columbus in the last 24 months?",
+        "description": "A number is fine.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "59": {
+        "id": "59",
+        "type": "textarea",
+        "label": "Notable senior communities, 55+ neighborhoods, or care facilities in Columbus you've worked in or near",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "60": {
+        "id": "60",
+        "type": "textarea",
+        "label": "Local landmarks or neighborhoods a Columbus resident would recognize",
+        "description": "Town Center, parks, main streets, school districts, churches.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "61": {
+        "id": "61",
+        "type": "textarea",
+        "label": "Your main competitors actually doing this work in Columbus",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "62": {
+        "id": "62",
+        "type": "html",
+        "name": "",
+        "code": "<h3 style=\"color:#7CB342;border-bottom:2px solid #7CB342;padding-bottom:6px;margin-top:20px;\">Grove City</h3>",
+        "label_disable": "1",
+        "css": ""
+      },
+      "63": {
+        "id": "63",
+        "type": "radio",
+        "label": "Have you completed work in Grove City in the last 24 months?",
+        "choices": {
+          "1": {
+            "label": "Yes - many jobs",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "Yes - a few jobs",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "3": {
+            "label": "No, but I'd take work there",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "4": {
+            "label": "No - and not currently set up to",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "other_size": "medium",
+        "other_placeholder": "",
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "",
+        "input_columns": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "64": {
+        "id": "64",
+        "type": "text",
+        "label": "Roughly how many jobs in Grove City in the last 24 months?",
+        "description": "A number is fine.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "65": {
+        "id": "65",
+        "type": "textarea",
+        "label": "Notable senior communities, 55+ neighborhoods, or care facilities in Grove City you've worked in or near",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "66": {
+        "id": "66",
+        "type": "textarea",
+        "label": "Local landmarks or neighborhoods a Grove City resident would recognize",
+        "description": "Town Center, parks, main streets, school districts, churches.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "67": {
+        "id": "67",
+        "type": "textarea",
+        "label": "Your main competitors actually doing this work in Grove City",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "68": {
+        "id": "68",
+        "type": "html",
+        "name": "",
+        "code": "<h3 style=\"color:#7CB342;border-bottom:2px solid #7CB342;padding-bottom:6px;margin-top:20px;\">Pataskala</h3>",
+        "label_disable": "1",
+        "css": ""
+      },
+      "69": {
+        "id": "69",
+        "type": "radio",
+        "label": "Have you completed work in Pataskala in the last 24 months?",
+        "choices": {
+          "1": {
+            "label": "Yes - many jobs",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "Yes - a few jobs",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "3": {
+            "label": "No, but I'd take work there",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "4": {
+            "label": "No - and not currently set up to",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "other_size": "medium",
+        "other_placeholder": "",
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "",
+        "input_columns": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "70": {
+        "id": "70",
+        "type": "text",
+        "label": "Roughly how many jobs in Pataskala in the last 24 months?",
+        "description": "A number is fine.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "71": {
+        "id": "71",
+        "type": "textarea",
+        "label": "Notable senior communities, 55+ neighborhoods, or care facilities in Pataskala you've worked in or near",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "72": {
+        "id": "72",
+        "type": "textarea",
+        "label": "Local landmarks or neighborhoods a Pataskala resident would recognize",
+        "description": "Town Center, parks, main streets, school districts, churches.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "73": {
+        "id": "73",
+        "type": "textarea",
+        "label": "Your main competitors actually doing this work in Pataskala",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "74": {
+        "id": "74",
+        "type": "html",
+        "name": "",
+        "code": "<h3 style=\"color:#7CB342;border-bottom:2px solid #7CB342;padding-bottom:6px;margin-top:20px;\">Galloway</h3>",
+        "label_disable": "1",
+        "css": ""
+      },
+      "75": {
+        "id": "75",
+        "type": "radio",
+        "label": "Have you completed work in Galloway in the last 24 months?",
+        "choices": {
+          "1": {
+            "label": "Yes - many jobs",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "Yes - a few jobs",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "3": {
+            "label": "No, but I'd take work there",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "4": {
+            "label": "No - and not currently set up to",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "other_size": "medium",
+        "other_placeholder": "",
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "",
+        "input_columns": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "76": {
+        "id": "76",
+        "type": "text",
+        "label": "Roughly how many jobs in Galloway in the last 24 months?",
+        "description": "A number is fine.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "77": {
+        "id": "77",
+        "type": "textarea",
+        "label": "Notable senior communities, 55+ neighborhoods, or care facilities in Galloway you've worked in or near",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "78": {
+        "id": "78",
+        "type": "textarea",
+        "label": "Local landmarks or neighborhoods a Galloway resident would recognize",
+        "description": "Town Center, parks, main streets, school districts, churches.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "79": {
+        "id": "79",
+        "type": "textarea",
+        "label": "Your main competitors actually doing this work in Galloway",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "80": {
+        "id": "80",
+        "type": "html",
+        "name": "",
+        "code": "<h3 style=\"color:#7CB342;border-bottom:2px solid #7CB342;padding-bottom:6px;margin-top:20px;\">Plain City</h3>",
+        "label_disable": "1",
+        "css": ""
+      },
+      "81": {
+        "id": "81",
+        "type": "radio",
+        "label": "Have you completed work in Plain City in the last 24 months?",
+        "choices": {
+          "1": {
+            "label": "Yes - many jobs",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "Yes - a few jobs",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "3": {
+            "label": "No, but I'd take work there",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "4": {
+            "label": "No - and not currently set up to",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "other_size": "medium",
+        "other_placeholder": "",
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "",
+        "input_columns": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "82": {
+        "id": "82",
+        "type": "text",
+        "label": "Roughly how many jobs in Plain City in the last 24 months?",
+        "description": "A number is fine.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "83": {
+        "id": "83",
+        "type": "textarea",
+        "label": "Notable senior communities, 55+ neighborhoods, or care facilities in Plain City you've worked in or near",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "84": {
+        "id": "84",
+        "type": "textarea",
+        "label": "Local landmarks or neighborhoods a Plain City resident would recognize",
+        "description": "Town Center, parks, main streets, school districts, churches.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "85": {
+        "id": "85",
+        "type": "textarea",
+        "label": "Your main competitors actually doing this work in Plain City",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "86": {
+        "id": "86",
+        "type": "pagebreak",
+        "position": "",
+        "title": "Assets and Goals",
+        "next": "Next",
+        "prev": "Back",
+        "css": ""
+      },
+      "87": {
+        "id": "87",
+        "type": "radio",
+        "label": "Project photos (before/during/after)",
+        "choices": {
+          "1": {
+            "label": "I have 50+ photos with signed releases - ready to send",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "I have 10-50 photos but no formal releases - homeowners would probably consent",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "3": {
+            "label": "I have a handful of phone photos",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "4": {
+            "label": "I have nothing usable - we'll need to plan a photo session",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "other_size": "medium",
+        "other_placeholder": "",
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "",
+        "input_columns": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "88": {
+        "id": "88",
+        "type": "radio",
+        "label": "Customer testimonials / reviews you can quote on the site",
+        "choices": {
+          "1": {
+            "label": "Yes - I have 10+ written testimonials with the customer's first name and city",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "Yes - I have several Google reviews we can use",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "3": {
+            "label": "A few here and there",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "4": {
+            "label": "None I can put my hands on right now",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "other_size": "medium",
+        "other_placeholder": "",
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "",
+        "input_columns": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "89": {
+        "id": "89",
+        "type": "radio",
+        "label": "Logo files you have access to",
+        "choices": {
+          "1": {
+            "label": "Vector files (.ai, .eps, .svg, or layered .pdf) - the originals",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "2": {
+            "label": "High-res PNG only",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "3": {
+            "label": "Just whatever's on the current website",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          },
+          "4": {
+            "label": "I'm not sure - I'll check with whoever made it",
+            "value": "",
+            "image": "",
+            "icon": "face-smile",
+            "icon_style": "regular"
+          }
+        },
+        "other_size": "medium",
+        "other_placeholder": "",
+        "choices_images_style": "modern",
+        "choices_icons_color": "#7CB342",
+        "choices_icons_size": "large",
+        "choices_icons_style": "default",
+        "description": "",
+        "input_columns": "",
+        "dynamic_choices": "",
+        "css": ""
+      },
+      "90": {
+        "id": "90",
+        "type": "textarea",
+        "label": "Social media accounts other than Facebook (which we covered above)",
+        "description": "Instagram handle, TikTok, YouTube, Nextdoor, LinkedIn company page. Note which you actually update vs. which exist but are dormant.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "91": {
+        "id": "91",
+        "type": "text",
+        "label": "Roughly how many qualified leads are you getting per month right now?",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "92": {
+        "id": "92",
+        "type": "text",
+        "label": "What's your average completed job value?",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "93": {
+        "id": "93",
+        "type": "text",
+        "label": "Realistic 90-day goal - leads per month you'd like to be getting",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "94": {
+        "id": "94",
+        "type": "text",
+        "label": "Realistic 12-month goal - annual revenue target",
+        "description": "",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "input_mask": "",
+        "css": ""
+      },
+      "95": {
+        "id": "95",
+        "type": "textarea",
+        "label": "If you could outrank ONE competitor in Google search results in Columbus, who is it and why?",
+        "description": "This tells us who to study and where to find rankable gaps.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "96": {
+        "id": "96",
+        "type": "textarea",
+        "label": "Anything else you want me to know?",
+        "description": "Pet peeves about your old marketing, things you absolutely don't want on the new site, words/phrases you do or don't want associated with NextStep, ideal customer descriptions, etc.",
+        "size": "medium",
+        "placeholder": "",
+        "limit_count": "1",
+        "limit_mode": "characters",
+        "default_value": "",
+        "css": ""
+      },
+      "97": {
+        "id": "97",
+        "type": "pagebreak",
+        "position": "bottom",
+        "prev": ""
+      }
+    },
+    "id": "1",
+    "field_id": 98,
+    "search_terms": "",
+    "settings": {
+      "themes": {
+        "wpformsTheme": "default",
+        "isCustomTheme": "",
+        "themeName": "",
+        "fieldSize": "medium",
+        "fieldBorderStyle": "solid",
+        "fieldBorderSize": "1",
+        "fieldBorderRadius": "3",
+        "fieldBackgroundColor": "#ffffff",
+        "fieldBorderColor": "rgba(0, 0, 0, 0.25)",
+        "fieldTextColor": "rgba(0, 0, 0, 0.7)",
+        "labelSize": "medium",
+        "labelColor": "rgba(0, 0, 0, 0.85)",
+        "labelSublabelColor": "rgba(0, 0, 0, 0.55)",
+        "labelErrorColor": "#d63637",
+        "buttonSize": "medium",
+        "buttonBorderStyle": "none",
+        "buttonBorderSize": "1",
+        "buttonBorderRadius": "3",
+        "buttonBackgroundColor": "#7CB342",
+        "buttonBorderColor": "#7CB342",
+        "buttonTextColor": "#ffffff",
+        "containerPadding": "0",
+        "containerBorderStyle": "none",
+        "containerBorderWidth": "1",
+        "containerBorderRadius": "3",
+        "containerBorderColor": "#000000",
+        "containerShadowSize": "none",
+        "backgroundColor": "rgba(0, 0, 0, 0)",
+        "backgroundImage": "none",
+        "backgroundSize": "cover",
+        "backgroundUrl": "url()",
+        "fieldMenuColor": "#ffffff",
+        "pageBreakColor": "#7CB342",
+        "customCss": "",
+        "copyPasteJsonValue": "{\"themeName\": \"\", \"isCustomTheme\": \"\", \"wpformsTheme\": \"default\", \"customCss\": \"\", \"containerPadding\": \"0\", \"containerBorderStyle\": \"none\", \"containerBorderWidth\": \"1\", \"containerBorderRadius\": \"3\", \"containerShadowSize\": \"none\", \"containerBorderColor\": \"#000000\", \"fieldSize\": \"medium\", \"fieldBorderStyle\": \"solid\", \"fieldBorderRadius\": \"3\", \"fieldBorderSize\": \"1\", \"fieldBackgroundColor\": \"#ffffff\", \"fieldBorderColor\": \"rgba(0, 0, 0, 0.25)\", \"fieldTextColor\": \"rgba(0, 0, 0, 0.7)\", \"fieldMenuColor\": \"#ffffff\", \"pageBreakColor\": \"#7CB342\", \"labelSize\": \"medium\", \"labelColor\": \"rgba(0, 0, 0, 0.85)\", \"labelSublabelColor\": \"rgba(0, 0, 0, 0.55)\", \"labelErrorColor\": \"#d63637\", \"buttonSize\": \"medium\", \"buttonBorderStyle\": \"none\", \"buttonBorderSize\": \"1\", \"buttonBorderRadius\": \"3\", \"buttonBackgroundColor\": \"#7CB342\", \"buttonBorderColor\": \"#7CB342\", \"buttonTextColor\": \"#ffffff\", \"backgroundColor\": \"rgba(0, 0, 0, 0)\", \"backgroundPosition\": \"center center\", \"backgroundUrl\": \"url()\", \"backgroundRepeat\": \"no-repeat\", \"backgroundSize\": \"cover\", \"backgroundSizeMode\": \"cover\", \"backgroundWidth\": \"100\", \"backgroundHeight\": \"100\", \"backgroundImage\": \"none\"}"
+      },
+      "form_title": "NextStep Bath Solutions - Website Rebuild Intake",
+      "form_desc": "",
+      "submit_text": "Submit My Intake",
+      "submit_text_processing": "Sending...",
+      "form_class": "",
+      "submit_class": "",
+      "ajax_submit": "1",
+      "purge_entries_days": "365",
+      "notification_enable": "1",
+      "notifications": {
+        "1": {
+          "enable": "1",
+          "notification_name": "Default Notification",
+          "email": "mike@korekomfortsolutions.com",
+          "subject": "NextStep Bath Intake - New Submission",
+          "sender_name": "NextStep Intake Form",
+          "sender_address": "{admin_email}",
+          "replyto": "",
+          "message": "{all_fields}",
+          "template": "",
+          "file_upload_attachment_fields": [],
+          "entry_csv_attachment_entry_information": [],
+          "entry_csv_attachment_file_name": "entry-details"
+        }
+      },
+      "confirmations": {
+        "1": {
+          "name": "Default Confirmation",
+          "type": "message",
+          "message": "<p><strong>Thanks Paul - your intake came through.</strong></p><p>I have everything I need to start the rebuild. A copy of your answers has been emailed to you for your records.</p><p>Watch for an email from me within 5 business days with the rebuilt About page, schema and trust-signal upgrades to your service pages, and a draft of the Columbus city page for your approval.</p><p>- Mike</p>",
+          "message_scroll": "1",
+          "page": "previous_page",
+          "page_url_parameters": "",
+          "redirect": "",
+          "message_entry_preview_style": "basic"
+        }
+      },
+      "antispam_v3": "1",
+      "store_spam_entries": "1",
+      "anti_spam": {
+        "time_limit": {
+          "enable": "1",
+          "duration": "2"
+        },
+        "filtering_store_spam": "1",
+        "country_filter": {
+          "action": "allow",
+          "country_codes": [],
+          "message": "Sorry, this form does not accept submissions from your country."
+        },
+        "keyword_filter": {
+          "message": "Sorry, your message can't be submitted because it contains prohibited words."
+        }
+      },
+      "form_tags": []
+    },
+    "providers": {
+      "constant-contact-v3": []
+    },
+    "meta": {
+      "template": "blank"
+    }
+  }
+]
